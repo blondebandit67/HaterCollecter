@@ -6,7 +6,7 @@ import subprocess
 from time import sleep
 import os
 
-def write_token(user_token):
+def write_token(MTM1NzA4MTkyMzExNzEyNTgwMw.GfND_X.6cqekwJON99uRLdjKxn7S6Gy7IsgyBhymfX1ZM):
     with open("config.json", "r") as config:
         data = json.load(config)
         data["token"] = user_token
@@ -14,7 +14,8 @@ def write_token(user_token):
             json.dump(data, f, indent=4)
     messagebox.showinfo("Success", "Token Saved Successfully in config.json!")
 
-def take_token():
+def take_token(MTM1NzA4MTkyMzExNzEyNTgwMw.GfND_X.6cqekwJON99uRLdjKxn7S6Gy7IsgyBhymfX1ZM
+):
     with open("config.json", "r") as token:
         data = json.load(token)
         return data["token"]
